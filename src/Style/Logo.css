@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/circles-new');
+
+.glitchLogo {
+  position: relative;
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+  font-family: 'Circles_New', sans-serif;
+  font-size: 70vh;
+  justify-self: flex-start;
+  filter: blur(0.5px);
+  animation: glitch 0.5s infinite linear;
+  padding-bottom: 10vh;
+}
+
+.glitchLogo span {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.glitchLogo span:first-child {
+  animation: glitch 0.7s infinite linear;
+  clip-path: polygon(0 49%, 100% 50%, 100% 0, 0 0);
+  transform: translate(-0.7vh, -0.7vh);
+  opacity: 0.3;
+}
+
+
+.glitchLogo span:last-child {
+  animation: glitch 1s infinite linear;
+  clip-path: polygon(0 53%, 100% 53%, 100% 100%, 0 100%);
+  transform: translate(0.7vh, 0.7vh);
+  opacity: 0.3;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -1.7vh 0 0 #99ff0075, 1.75vh 1.9vh 0 #578f037e, -1.75vh -1.9vh 0 #233a00;
+  }
+  14% {
+    text-shadow: -1.7vh 0 0 #99ff0075, 1.75vh 1.9vh 0 #578f037e, -1.75vh -1.9vh 0 #233a00;
+  }
+  15% {
+    text-shadow: 1vh 0 0 #99ff0075, -1.45vh -1.7vh 0 #578f037e, 1.55vh 1.8vh 0 #233a00;
+  }
+  49% {
+    text-shadow: 1vh 0 0 #99ff0075, -1.45vh -1.7vh 0 #578f037e, 1.55vh 1.8vh 0 #233a00;
+  }
+  50% {
+    text-shadow: -1.5vh 0 0 #99ff0075, 1.85vh 1.5vh 0 #578f037e, -1.7vh -2vh 0 #233a00;
+  }
+  99% {
+    text-shadow: -1.5vh 0 0 #99ff0075, 1.85vh 1.5vh 0 #578f037e, -1.7vh -2vh 0 #233a00;
+  }
+  100% {
+    text-shadow: 2.3vh 0 0 #99ff0075, -1.55vh -1.9vh 0 #578f037e, 1.75vh 1.9vh 0 #233a00;
+  }
+}
