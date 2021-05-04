@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header'
 import FirstPage from '../Components/FirstPage';
-import SecondPage from '../Components/SecondPage';
-import ThirdPage from '../Components/ThirdPage';
-import PageBreak from '../Components/PageBreak';
-import '../Style/HomePageUm.css'
-import '../Style/HomePageDois.css'
+// import SecondPage from '../Components/SecondPage';
+// import ThirdPage from '../Components/ThirdPage';
+// import PageBreak from '../Components/PageBreak';
+import '../Style/FirstPage.css'
+// import '../Style/HomePageDois.css'
 
 class Home extends Component {
   render() {
@@ -13,10 +13,10 @@ class Home extends Component {
       <>
         <Header />
         <FirstPage />
-        <PageBreak />
+        {/* <PageBreak />
         <SecondPage />
         <PageBreak />
-        <ThirdPage />
+        <ThirdPage /> */}
       </>
     )
   }
