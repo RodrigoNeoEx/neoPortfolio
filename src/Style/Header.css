@@ -1,0 +1,32 @@
+@import url('http://fonts.cdnfonts.com/css/circles-new');
+
+.header {
+  display: grid;
+  grid-template-columns: 71vh 10vh 45vh;
+  position: fixed;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  font-family: 'Circles_New', sans-serif;
+  font-size: 8vh;
+  grid-column: 2;
+  justify-content: space-around;
+  line-height: 10px;
+  text-shadow: #9aff00 1.5px 1px 1px;
+}
+
+.nav {
+  grid-column: 3;
+  font-size: 3vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 2vh;
+}
