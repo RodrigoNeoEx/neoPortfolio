@@ -1,0 +1,25 @@
+.footerContainer {
+  margin: 0.5vw;
+  width: 98vw;
+  font-size: 2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 1px solid;
+  height: 6vh;
+}
+
+.footerContainer svg {
+  color: white;
+  font-size: 5vh;
+  top: 1.7vh;
+  left: 0;
+  position: relative;
+  margin-left: 5px;
+}
+
+.footerContainer p {
+  align-self: center;
+  line-height: 8vh;
+}
