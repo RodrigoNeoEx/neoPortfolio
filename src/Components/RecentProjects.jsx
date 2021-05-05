@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import { SiRedux, SiReact, SiJavascript, SiCss3, SiGithub } from "react-icons/si";
 import '../Style/RecentProjects.css'
 import ReactPlayer from 'react-player/lazy'
-import trivia from '../videos/trivia.mp4'
-import wallet from '../videos/wallet.mp4'
+import trivia from '../Videos/trivia.mp4'
+import wallet from '../Videos/wallet.mp4'
 
 class RecentProjects extends Component {
   constructor(props) {
@@ -40,7 +39,7 @@ class RecentProjects extends Component {
             <SiJavascript className="js"/>
             <SiCss3 className="css"/>
           </div>
-          <Link><SiGithub /> Code <SiGithub /></Link>
+          <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="walletBorder"></div>
         <div className="wallet">
@@ -58,7 +57,7 @@ class RecentProjects extends Component {
             <SiJavascript className="js" />
             <SiCss3 className="css"/>
           </div>
-          <Link><SiGithub /> Code <SiGithub /></Link>
+          <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="borderBot">
           <div className="borderTop">
@@ -80,7 +79,7 @@ class RecentProjects extends Component {
             <SiJavascript className="js" />
             <SiCss3 className="css"/>
           </div>
-          <Link><SiGithub /> Code <SiGithub /></Link>
+          <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="appRecipesBorder"></div>
         <div className="appRecipes">
@@ -98,7 +97,7 @@ class RecentProjects extends Component {
             <SiJavascript className="js" />
             <SiCss3 className="css" />
           </div>
-          <Link className="code"><SiGithub /> Code <SiGithub /></Link>
+          <a href="./" className="code"><SiGithub /> Code <SiGithub /></a>
         </div>
       </div>
     )

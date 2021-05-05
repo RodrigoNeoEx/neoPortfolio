@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Style/LogoEffect.css'
+import '../Style/Logo.css'
 
 class LogoEffect extends Component {
   render() {
