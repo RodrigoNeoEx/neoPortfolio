@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
-import GlitchLogo from './GlitchLogo'
+import LogoEffect from './LogoEffect'
 import '../Style/ThirdPage.css';
 
 
@@ -15,7 +15,7 @@ class ThirdPage extends Component {
           <span className="fourth">ideas?</span>
           <span className="fifth">Contact me!!!</span>
         </div>
-        <GlitchLogo />
+        <LogoEffect />
         <Footer />
       </div>
     )};
