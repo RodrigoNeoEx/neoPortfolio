@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/neoPortfolio/static/css/main.cff8d725.chunk.css",
+    "main.css": "/neoPortfolio/static/css/main.c68104e5.chunk.css",
     "main.js": "/neoPortfolio/static/js/main.a0a02698.chunk.js",
     "main.js.map": "/neoPortfolio/static/js/main.a0a02698.chunk.js.map",
     "reactPlayerDailyMotion.js": "/neoPortfolio/static/js/reactPlayerDailyMotion.5ad01b4c.chunk.js",
@@ -36,7 +36,7 @@
     "static/js/16.41f69f5e.chunk.js": "/neoPortfolio/static/js/16.41f69f5e.chunk.js",
     "static/js/16.41f69f5e.chunk.js.map": "/neoPortfolio/static/js/16.41f69f5e.chunk.js.map",
     "index.html": "/neoPortfolio/index.html",
-    "static/css/main.cff8d725.chunk.css.map": "/neoPortfolio/static/css/main.cff8d725.chunk.css.map",
+    "static/css/main.c68104e5.chunk.css.map": "/neoPortfolio/static/css/main.c68104e5.chunk.css.map",
     "static/js/15.32431b93.chunk.js.LICENSE.txt": "/neoPortfolio/static/js/15.32431b93.chunk.js.LICENSE.txt",
     "static/media/NMovies.3362c6ec.mp4": "/neoPortfolio/static/media/NMovies.3362c6ec.mp4",
     "static/media/recipesApp.5c516f01.mp4": "/neoPortfolio/static/media/recipesApp.5c516f01.mp4",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.fbd501ac.js",
     "static/js/15.32431b93.chunk.js",
-    "static/css/main.cff8d725.chunk.css",
+    "static/css/main.c68104e5.chunk.css",
     "static/js/main.a0a02698.chunk.js"
   ]
 }
