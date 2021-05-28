@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/neoPortfolio/static/css/main.37ceb14a.chunk.css",
-    "main.js": "/neoPortfolio/static/js/main.5d42a0d7.chunk.js",
-    "main.js.map": "/neoPortfolio/static/js/main.5d42a0d7.chunk.js.map",
+    "main.css": "/neoPortfolio/static/css/main.cff8d725.chunk.css",
+    "main.js": "/neoPortfolio/static/js/main.a0a02698.chunk.js",
+    "main.js.map": "/neoPortfolio/static/js/main.a0a02698.chunk.js.map",
     "reactPlayerDailyMotion.js": "/neoPortfolio/static/js/reactPlayerDailyMotion.5ad01b4c.chunk.js",
     "reactPlayerDailyMotion.js.map": "/neoPortfolio/static/js/reactPlayerDailyMotion.5ad01b4c.chunk.js.map",
     "reactPlayerFacebook.js": "/neoPortfolio/static/js/reactPlayerFacebook.f406a14d.chunk.js",
@@ -36,15 +36,17 @@
     "static/js/16.41f69f5e.chunk.js": "/neoPortfolio/static/js/16.41f69f5e.chunk.js",
     "static/js/16.41f69f5e.chunk.js.map": "/neoPortfolio/static/js/16.41f69f5e.chunk.js.map",
     "index.html": "/neoPortfolio/index.html",
-    "static/css/main.37ceb14a.chunk.css.map": "/neoPortfolio/static/css/main.37ceb14a.chunk.css.map",
+    "static/css/main.cff8d725.chunk.css.map": "/neoPortfolio/static/css/main.cff8d725.chunk.css.map",
     "static/js/15.32431b93.chunk.js.LICENSE.txt": "/neoPortfolio/static/js/15.32431b93.chunk.js.LICENSE.txt",
+    "static/media/NMovies.3362c6ec.mp4": "/neoPortfolio/static/media/NMovies.3362c6ec.mp4",
+    "static/media/recipesApp.5c516f01.mp4": "/neoPortfolio/static/media/recipesApp.5c516f01.mp4",
     "static/media/trivia.fb5efc50.mp4": "/neoPortfolio/static/media/trivia.fb5efc50.mp4",
     "static/media/wallet.125e05f9.mp4": "/neoPortfolio/static/media/wallet.125e05f9.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.fbd501ac.js",
     "static/js/15.32431b93.chunk.js",
-    "static/css/main.37ceb14a.chunk.css",
-    "static/js/main.5d42a0d7.chunk.js"
+    "static/css/main.cff8d725.chunk.css",
+    "static/js/main.a0a02698.chunk.js"
   ]
 }
