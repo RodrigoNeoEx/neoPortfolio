@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/helveticaneuecyr-2');
+
 button {
   position: relative;
   cursor: pointer;
@@ -5,6 +7,54 @@ button {
   color: white;
   border: none;
   transition: all 1s;
+}
+
+.playTrivia {
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid greenyellow;
+  border-right: 1px solid greenyellow;
+  border-radius: 5vh;
+}
+
+.playTrivia:hover {
+  box-shadow: 0 0 3px 1px #33f93b;
+}
+
+.playWallet {
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid greenyellow;
+  border-left: 1px solid greenyellow;
+  border-radius: 5vh;
+}
+
+.playWallet:hover {
+  box-shadow: 0 0 3px 1px #33f93b;
+}
+
+.playStar {
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-top: 1px solid greenyellow;
+  border-left: 1px solid greenyellow;
+  border-radius: 5vh;
+}
+
+.playStar:hover {
+  box-shadow: 0 0 3px 1px #33f93b;
+}
+
+.playApp {
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-top: 1px solid greenyellow;
+  border-right: 1px solid greenyellow;
+  border-radius: 5vh;
+}
+
+.playApp:hover {
+  box-shadow: 0 0 3px 1px #33f93b;
 }
 
 .recentContainer {
@@ -16,6 +66,7 @@ button {
   margin-left: 3vh;
   margin-right: 3vh;
   text-align: center;
+  font-family: 'HelveticaNeueCyr', sans-serif;
 }
 
 .trivia {
@@ -136,4 +187,29 @@ button {
     border-bottom: 1px solid #9aff00;
     border-left: 1px solid #9aff00;
   }
+}
+
+.languages {
+  position: absolute;
+  top: 25vh;
+  left: 13vw;
+  transition: all 0.5s;
+}
+
+.languages p {
+  display: flex;
+  align-items: center;
+}
+
+.languages img {
+  width: 4vw;
+  margin: 0 1vh;
+}
+
+.link img {
+  width: 2.5vw;
+}
+
+.link {
+  display: flex;
 }

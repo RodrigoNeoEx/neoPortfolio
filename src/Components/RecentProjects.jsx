@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
-import { SiRedux, SiReact, SiJavascript, SiCss3, SiGithub } from "react-icons/si";
-import '../Style/RecentProjects.css'
-import ReactPlayer from 'react-player/lazy'
-import trivia from '../Videos/trivia.mp4'
-import wallet from '../Videos/wallet.mp4'
-import nmovies from '../Videos/NMovies.mp4'
-import recipesApp from '../Videos/recipesApp.mp4'
+import React, { Component } from 'react';
+import { SiRedux, SiReact, SiJavascript, SiCss3} from "react-icons/si";
+import '../Style/RecentProjects.css';
+import ReactPlayer from 'react-player/lazy';
+import trivia from '../Videos/trivia.mp4';
+import wallet from '../Videos/wallet.mp4';
+import nmovies from '../Videos/NMovies.mp4';
+import recipesApp from '../Videos/recipesApp.mp4';
+import arrow from '../Style/Images/icons8-right-arrow-64.png';
+import git from '../Style/Images/icons8-github-64.png'
 
 class RecentProjects extends Component {
   constructor(props) {
@@ -27,7 +29,7 @@ class RecentProjects extends Component {
       return (
       <div className="languages">
         <p>
-          Languages used:
+          Languages used <img src={arrow} alt="arrow right" />
           <SiRedux className="redux" />
           <SiReact className="react" />
           <SiJavascript className="js"/>
@@ -40,7 +42,7 @@ class RecentProjects extends Component {
       return (
         <div className="languages">
           <p>
-            Languages used:
+            Languages used <img src={arrow} alt="arrow right" />
             <SiRedux className="redux" />
             <SiReact className="react" />
             <SiJavascript className="js"/>
@@ -53,7 +55,7 @@ class RecentProjects extends Component {
       return (
         <div className="languages">
         <p>
-          Languages used:
+          Languages used <img src={arrow} alt="arrow right" />
           <SiReact className="react" />
           <SiJavascript className="js" />
           <SiCss3 className="css"/>
@@ -65,7 +67,7 @@ class RecentProjects extends Component {
       return (
         <div className="languages">
           <p>
-            Languages used:
+            Languages used <img src={arrow} alt="arrow right" />
             <SiRedux className="redux" />
             <SiReact className="react" />
             <SiJavascript className="js"/>
@@ -90,9 +92,9 @@ class RecentProjects extends Component {
         >
           Watch Video
         </button>
-        <div className="projectTitle">Trivia</div>
-          <a href="./"><SiGithub /> Code <SiGithub /></a>
-        </div>
+          <div className="projectTitle">Trivia</div>
+            <a href="./" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+          </div>
         <div className="walletBorder"></div>
         <div className="wallet">
         <button
@@ -103,14 +105,15 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">Wallet</div>
-          <a href="./"><SiGithub /> Code <SiGithub /></a>
-        </div>
+            <a href="./" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+          </div>
         <div className="borderBot">
           <div className="borderTop">
+          { this.renderUsedLanguages() }
           </div>
         </div>
         <ReactPlayer className="videoPlayer" url={videos} playing loop width='95' height='' />
-        <div>{ this.renderUsedLanguages() }</div>
+
         <div className="starWarsBorder"></div>
         <div className="starWars">
         <button
@@ -121,8 +124,8 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">N Movies</div>
-          <a href="./"><SiGithub /> Code <SiGithub /></a>
-        </div>
+            <a href="./" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+          </div>
         <div className="appRecipesBorder"></div>
         <div className="appRecipes">
         <button
@@ -133,8 +136,8 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">Recipes App</div>
-          <a href="./" className="code"><SiGithub /> Code <SiGithub /></a>
-        </div>
+            <a href="./" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+          </div>
       </div>
     )
   }

@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
 }
 
-.circlesContainer{
+.circlesContainer {
   display: grid;
   grid-template-columns: 20vh 20vh;
   grid-template-rows: 20vh 20vh;
@@ -14,6 +14,10 @@ body {
   padding: 20px;
   left: 10vh;
   position: relative;
+}
+
+.circlesContainer span {
+  text-shadow: #9aff00 1px 0px 1px;
 }
 
 .avaiable, .date {

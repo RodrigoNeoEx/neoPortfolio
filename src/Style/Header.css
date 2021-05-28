@@ -2,7 +2,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 71vh 10vh 45vh;
+  grid-template-columns: 0vh 10vh 55vh;
   position: fixed;
 }
 

@@ -13,7 +13,7 @@ class ThirdPage extends Component {
           <span className="second">about</span>
           <span className="third">your</span>
           <span className="fourth">ideas?</span>
-          <span className="fifth">Contact me!!!</span>
+          <span className="fifth">Contact me.</span>
         </div>
         <LogoEffect />
         <Footer />

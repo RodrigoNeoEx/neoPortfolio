@@ -1,11 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/stencilia');
+@import url('http://fonts.cdnfonts.com/css/helveticaneuecyr-2');
 
 body {
   background-color: black;
 }
 
 .firstPage {
-  margin: 5vh;
   display: grid;
   grid-template-rows: 7vh 90vh;
   background-color: black;
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  width: 100vw;
+  width: 97vw;
   position: fixed;
   transition: all 1s;
   grid-row: 1;
@@ -51,11 +51,13 @@ body {
 .text {
   grid-column: 3;
   grid-row: 2;
-  font-size: 1.2vw;
-  text-align: justify;
+  font-size: 1.25vw;
+  /* text-align: justify; */
   text-shadow: #9aff00 1px 0 1px;
   align-self: center;
   padding: 5vh;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-weight: 700;
 }
 
 .description {
@@ -79,7 +81,7 @@ body {
     border-left: #9aff00 1px solid;
   }
   100% {
-    width: 65vh;
+    width: 59vh;
     height: 25vh;
     border-left: #9aff00 1px solid;
     border-bottom-left-radius: 5vh;

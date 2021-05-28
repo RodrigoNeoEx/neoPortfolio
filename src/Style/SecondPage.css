@@ -31,8 +31,8 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: 5vh 20vh 60vh;
-  width: 100vw;
-  grid-template-columns: 100vw;
+  width: 98vw;
+  grid-template-columns: 98vw;
 }
 
 .SecondPage a {
