@@ -4,6 +4,8 @@ import '../Style/RecentProjects.css'
 import ReactPlayer from 'react-player/lazy'
 import trivia from '../Videos/trivia.mp4'
 import wallet from '../Videos/wallet.mp4'
+import nmovies from '../Videos/NMovies.mp4'
+import recipesApp from '../Videos/recipesApp.mp4'
 
 class RecentProjects extends Component {
   constructor(props) {
@@ -12,10 +14,66 @@ class RecentProjects extends Component {
       videos: '',
     }
     this.createVideoPlayer = this.createVideoPlayer.bind(this);
+    this.renderUsedLanguages = this.renderUsedLanguages.bind(this);
   }
 
   createVideoPlayer(video) {
     this.setState({videos: video})
+  }
+
+  renderUsedLanguages() {
+    const { videos } = this.state;
+    if(videos.includes('trivia')) {
+      return (
+      <div className="languages">
+        <p>
+          Languages used:
+          <SiRedux className="redux" />
+          <SiReact className="react" />
+          <SiJavascript className="js"/>
+          <SiCss3 className="css"/>
+        </p>
+      </div>
+      );
+    }
+    if(videos.includes('wallet')) {
+      return (
+        <div className="languages">
+          <p>
+            Languages used:
+            <SiRedux className="redux" />
+            <SiReact className="react" />
+            <SiJavascript className="js"/>
+            <SiCss3 className="css"/>
+          </p>
+        </div>
+        );
+    }
+    if(videos.includes('NMovies')) {
+      return (
+        <div className="languages">
+        <p>
+          Languages used:
+          <SiReact className="react" />
+          <SiJavascript className="js" />
+          <SiCss3 className="css"/>
+        </p>
+        </div>
+      );
+    }
+    if(videos.includes('recipesApp')) {
+      return (
+        <div className="languages">
+          <p>
+            Languages used:
+            <SiRedux className="redux" />
+            <SiReact className="react" />
+            <SiJavascript className="js"/>
+            <SiCss3 className="css"/>
+          </p>
+        </div>
+        );
+    }
   }
 
   render() {
@@ -33,12 +91,6 @@ class RecentProjects extends Component {
           Watch Video
         </button>
         <div className="projectTitle">Trivia</div>
-          <div>
-            <SiRedux className="redux" />
-            <SiReact className="react" />
-            <SiJavascript className="js"/>
-            <SiCss3 className="css"/>
-          </div>
           <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="walletBorder"></div>
@@ -51,12 +103,6 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">Wallet</div>
-          <div>
-            <SiRedux className="redux" />
-            <SiReact className="react" />
-            <SiJavascript className="js" />
-            <SiCss3 className="css"/>
-          </div>
           <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="borderBot">
@@ -64,39 +110,29 @@ class RecentProjects extends Component {
           </div>
         </div>
         <ReactPlayer className="videoPlayer" url={videos} playing loop width='95' height='' />
+        <div>{ this.renderUsedLanguages() }</div>
         <div className="starWarsBorder"></div>
         <div className="starWars">
         <button
           type='button'
-          onClick={ () => this.createVideoPlayer(wallet) }
+          onClick={ () => this.createVideoPlayer(nmovies) }
           className="playStar"
         >
           Watch Video
         </button>
-          <div className="projectTitle">StarWars</div>
-          <div>
-            <SiReact className="react" />
-            <SiJavascript className="js" />
-            <SiCss3 className="css"/>
-          </div>
+          <div className="projectTitle">N Movies</div>
           <a href="./"><SiGithub /> Code <SiGithub /></a>
         </div>
         <div className="appRecipesBorder"></div>
         <div className="appRecipes">
         <button
           type='button'
-          onClick={ () => this.createVideoPlayer(wallet) }
+          onClick={ () => this.createVideoPlayer(recipesApp) }
           className="playApp"
         >
           Watch Video
         </button>
           <div className="projectTitle">Recipes App</div>
-          <div>
-            <SiRedux className="redux" />
-            <SiReact className="react" />
-            <SiJavascript className="js" />
-            <SiCss3 className="css" />
-          </div>
           <a href="./" className="code"><SiGithub /> Code <SiGithub /></a>
         </div>
       </div>
