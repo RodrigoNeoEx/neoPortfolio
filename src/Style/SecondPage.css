@@ -483,6 +483,20 @@ body {
   .SecondPage {
     margin: 0;
   }
+  .secText {
+    position: relative;
+    left: 1.2vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .fline {
+    align-self: unset;
+    margin-left: 0;
+  }
+  .sline {
+    margin-top: -2vh;
+  }
   .starWars, .appRecipes, .wallet, .trivia {
     padding: 0;
     font-size: 1.5vh;
@@ -506,7 +520,7 @@ body {
     top: -2vh;
   }
   .trivia {
-    right: -1vh;
+    left: 1.2vh;
   }
   .wallet {
     right: 9vw;
