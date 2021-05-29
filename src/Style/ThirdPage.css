@@ -111,9 +111,10 @@
   }
 }
 
-@media (max-width: 420px)  {
+@media (max-width: 450px)  {
   .thirdPage {
     grid-template-rows: 83vh 12vh;
+    height: 100vh;
   }
   .textContainer {
     font-size: 4vh;
@@ -129,10 +130,9 @@
     position: relative;
     font-size: 2vh;
     display: grid;
-    width: 90vw;
-    grid-template-columns: 45vw 50vw;
-    grid-template-rows: 6vh 6vh;
-    top: -6vh;
+    width: 93vw;
+    grid-template-columns: 47vw 49vw;
+    grid-template-rows: 9vh 5vh;
   }
   .footerContainer svg {
     font-size: 3vh;

@@ -163,25 +163,40 @@ body {
 }
 
 @media (max-width: 450px) {
+  * {
+    margin-left: 1vh;
+  }
+  .pageBreak {
+    height: 5vh;
+  }
   .helloContainer {
     font-size: 10vw;
   }
   .header {
+    width: 90vw;
     transform: translate(0);
     grid-template-columns: auto;
+  }
+  .nav {
+    font-size: medium;
+  }
+  .logo {
+    font-size: 6vh;
   }
   .circlesContainer {
     left: -1vh;
     top: 39vh;
   }
   .description {
-    left: -13vh;
-    top: 10vh;
+    left: -10vh;
+    top: 15vh;
     animation: borderTeste3 1s 1 forwards;
   }
   .text {
-    left: -13vh;
-    top: 9vh;
-    padding-bottom: 2vh;
+    left: -12vh;
+    top: 14vh;
+    padding-bottom: 5vh;
+    font-size: medium;
+    width: 65vw;
   }
 }

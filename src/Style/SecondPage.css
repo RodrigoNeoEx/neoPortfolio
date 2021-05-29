@@ -244,14 +244,38 @@ body {
 }
 
 @media (max-width: 850px) {
+  .SecondPage {
+    grid-template-rows: 15vh 15vh 60vh;
+  }
   .secText {
     font-size: 10vh;
     margin-left: 3vh;
     line-height: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .fline {
     align-self: end;
+    margin-left: 20vh;
   }
   .sline {
-    margin-top: 0;
+    margin-top: 1vh;
+  }
+  .starWars, .appRecipes, .wallet, .trivia {
+    padding: 0;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .playStar, .playTrivia, .playApp, .playWallet {
+    font-size: 2vh;
+    margin-bottom: 1vh;
+    z-index: 10;
+  }
+  .trivia {
+    bottom: 0vh;
+    left: 5vh;
   }
  }
 
@@ -455,10 +479,43 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
+  .SecondPage {
+    margin: 0;
+  }
+  .starWars, .appRecipes, .wallet, .trivia {
+    padding: 0;
+    font-size: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .playStar, .playTrivia, .playApp, .playWallet {
+    font-size: smaller;
+    margin-bottom: 1vh;
+    z-index: 10;
+  }
+  .starWars {
+    transition: 1s linear all;
+    bottom: 2vh;
+    position: relative;
+    left: 4vw;
+  }
+  .appRecipes {
+    right: 13vw;
+    top: -2vh;
+  }
+  .trivia {
+    right: -1vh;
+  }
+  .wallet {
+    right: 9vw;
+  }
   .secText {
     font-size: 5vh;
     line-height: 5vh;
+    position: relative;
+    left: 1vh;
   }
   .videoPlayer {
     width: 75vw;
@@ -470,8 +527,5 @@ body {
   }
   .triviaBorder {
     left: 3vw;
-  }
-  .trivia {
-    right: -1vh;
   }
 }
