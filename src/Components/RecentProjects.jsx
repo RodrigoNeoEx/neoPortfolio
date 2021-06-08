@@ -93,7 +93,7 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">Trivia</div>
-            <a href="https://rodrigoneoex.github.io/trivia/" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+            <a href="https://github.com/RodrigoNeoEx/Trivia" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
           </div>
         <div className="walletBorder"></div>
         <div className="wallet">
@@ -105,7 +105,7 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">Wallet</div>
-            <a href="https://rodrigoneoex.github.io/Wallet/" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+            <a href="https://github.com/RodrigoNeoEx/Wallet" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
           </div>
         <div className="borderBot">
           <div className="borderTop">
@@ -124,7 +124,7 @@ class RecentProjects extends Component {
           Watch Video
         </button>
           <div className="projectTitle">N Movies</div>
-            <a href="https://rodrigoneoex.github.io//Movie-Cards-Library/" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
+            <a href="https://github.com/RodrigoNeoEx/Movie-Cards-Library" className="link"><img src={ git } alt="git"/> Code <img src={ git } alt="git"/></a>
           </div>
         <div className="appRecipesBorder"></div>
         <div className="appRecipes">
